@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lobster', cursive;
+}
+
+body{
+    background: linear-gradient(-60deg, rgb(231, 39, 231), #7300e6, rgb(231, 39, 231));
+    text-align: center;
+}
+
+h1{
+    font-size: 45px;
+}
+
+p{
+    margin-top: 10px;
+    font-size: 30px;
+    color: white;
+}
+
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game{
+    height: 60vh;
+    width: 60vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border: none;
+    border-radius: 1.5rem;
+    background-color:  #00e6e6;
+    box-shadow: 10px 10px 10px rgb(3, 22, 35);
+    color: black;
+    font-size: 70px;
+}
+#reset-btn{
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    color: #4dffff;
+    background-color:  black;
+    box-shadow: 0px 0px 20px white;
+}
+#reset-btn:hover{
+    border: 2.5px solid white;
+}
+
+#new-btn{
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    margin-top: 10px;
+    border: none;
+    font-size: 20px;
+    font: bold;
+    color: #4dffff;
+    background-color:  black;
+    box-shadow: 0px 0px 20px white;
+}
+#new-btn:hover{
+    border: 2.5px solid white;
+}
+
+.hide{
+    display: none;
+}
